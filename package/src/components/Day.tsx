@@ -39,7 +39,7 @@ const Day: React.FunctionComponent<DayProps> = ({
           height: '36px',
           width: '36px',
           padding: 0,
-          border: (theme) => !disabled && outlined ? `1px solid ${theme.palette.primary.dark}` : undefined,
+          border: (theme) => !disabled && outlined ? `1px solid ${theme.palette.primary.datedark}` : undefined,
           ...(!disabled && filled ? {
             '&:hover': {
               backgroundColor: (theme) => theme.palette.primary.dark,
